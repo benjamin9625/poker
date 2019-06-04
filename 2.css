@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200');
+
+body, html, .main {
+  height: 100%;
+}
+
+section {
+  min-height: 100%;
+}
+
+html, body{
+height: 100%;
+}
+
+body {margin: 0px;}
+
+.question {
+background-image: url("poker.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+h1 {
+font-family: 'Work Sans', sans-serif;
+margin: 0px;
+font-size: 80px;
+color: white;
+}
+
+h2{
+font-family: 'Work Sans', sans-serif;
+margin: 0px;
+font-size: 100px;
+color: red;
+}
+
+.gomb {
+font-family: 'Work Sans', sans-serif;
+margin: 0px;
+font-size: 60px;
+color: white;
+background-color: orange;
+text-decoration: none;
+
+}  
+
+.gomb:hover {
+font-family: 'Work Sans', sans-serif;
+margin: 0px;
+font-size: 60px;
+color: black;
+background-color: orange;
+text-decoration: none;
+}
+
+.gomb:active {
+font-family: 'Work Sans', sans-serif;
+margin: 0px;
+font-size: 60px;
+color: red;
+background-color: orange;
+text-decoration: none;
+}
+
+table, td, th {
+border: 3px solid black;
+border-collapse: collapse;
+color: black;
+}
+
+th, td{
+padding: 10px;
+}
+
+table{
+    margin-bottom: 20px;
+    background-color: rgb(12, 109, 33);
+    
+}
+th {
+    text-align: left;
+    font-size: 22px;
+}
+
+td{
+font-size: 18px;
+}
+
+caption{
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(3, 160, 3);
+  }
+  
+  li {
+    float: left;
+    margin: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    padding: 16px;
+    margin: 0px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(0, 65, 0);
+  }
