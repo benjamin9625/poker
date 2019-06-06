@@ -18,7 +18,7 @@ if (isset($_POST['register_button'] )){
         mysqli_query($db, $sql);
         $_SESSION['message'] = "Bejelentkeztél!";
         $_SESSION['username'] = $username;
-       // header("location: action.php");
+       // header("location: profile.php");
      }else {
           $_SESSION['message'] = "A két jelszó nem egyezik meg!";
 
@@ -70,11 +70,11 @@ $(document).ready(function(){
 <body>
 <div class="menü" id="menü">
     <ul>
-        <li><a href="1.php">Főoldal</a></li>
+        <li><a href="index.php">Főoldal</a></li>
         <li><a href="Szabályok.php">Szabályok</a></li>
         <li><a href="https://www.facebook.com/"target="_blank">Facebook</a></li>
         <li> 
-          <form method="post" action="action.php">
+          <form method="post" action="profile.php">
               Felhasználónév:<br>
               <input type="text" name="fh" >
             
